@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling in JavaScript, Interactive Elements, and Form Validation</title>
+</head>
+<body>
+    <!-- 1. inline event handlers -->
+    <input type="text"
+    onfocus="this.style.background='lightblue';" 
+    onblur="this.style.background='';" 
+    placeholder="Focus to change color">
+
+    <p 
+    onmouseover="this.style.color='red'; this.innerText='Mouse has passed over me!';"
+    >This text will change on mouse over.</p>
+
+    <input type="text" id="myInput" placeholder="Type something..." />
+
+    <textarea id="myTextArea" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
