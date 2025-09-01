@@ -1,0 +1,18 @@
+body.dark{
+    background-color: #222;
+    color: white;
+}
+
+#carousel{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#carousel img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
