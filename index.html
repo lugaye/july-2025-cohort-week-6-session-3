@@ -32,6 +32,23 @@
 
     <textarea id="myTextArea" rows="4" cols="50" placeholder="Type your message here..."></textarea>
 
+    <hr>
+    <!-- form validation -->
+    <form id="myForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <span id="usernameError" class="error"></span>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passwordError" class="error"></span>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
 
     <script src="scripts/script.js"></script>
 </body>
