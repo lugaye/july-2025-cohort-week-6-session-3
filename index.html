@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Handling in JavaScript, Interactive Elements, and Form Validation</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <!-- interactive ui elements (toggle button) -->
+    <button onclick="toggleTheme()">Toggle Dark Mode</button>
+    <hr>
+    <!-- carousel => image slideshow  -->
+    <div id="carousel">
+        <img id="carouselImage" src="images/image-1.jpg" alt="carousel image" />
+        <hr>
+        <button onclick="previousImage()">Previous</button>
+        <button onclick="nextImage()">Next</button> 
+    </div>
+    <p>This text color will change in dark mode.</p>
     <!-- 1. inline event handlers -->
     <input type="text"
     onfocus="this.style.background='lightblue';" 
