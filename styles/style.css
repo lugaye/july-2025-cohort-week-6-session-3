@@ -1,3 +1,10 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
 body.dark{
     background-color: #222;
     color: white;
@@ -16,3 +23,36 @@ body.dark{
     height: 200px;
     object-fit: cover;
 }
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error{
+    color: red;
+    font-size: 0.9em;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    background: teal;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: darkcyan;
+}
+
